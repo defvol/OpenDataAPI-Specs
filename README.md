@@ -48,6 +48,30 @@ En resumen, cualquier humano o programa informático debe poder accesar, entende
 4. Los datos deben tener referencia, i.e. autor, organización a cargo.  
 5. Los datos deben estar ligados a una zona geográfica y al tiempo.  
 
+### Contextos, datasets, temática
+
+```
+➜  ~  curl http://opendata.mx/api/educacion
+{ datasets: ["bullying", "nivel-de-escolaridad"] }
+➜  ~  curl http://opendata.mx/api/presupuesto
+{ datasets: ["licitaciones", "compras-de-software", "pronabes"] }
+
+```
+
+### Datos en tiempo y espacio
+
+Dataset de bullying filtrado al DF
+
+```
+➜  ~  curl http://opendata.mx/api/educacion/bullying?w=-99.364067&s=19.048220&e=-98.940193&n=19.591579
+```
+
+Presupuesto para compra de software desde 2009
+
+```
+➜  ~  curl http://opendata.mx/api/presupuesto/compras-de-software?since=2009
+```
+
 ## Referencias
 
 * OpenDataMX http://opendata.mx
