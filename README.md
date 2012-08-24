@@ -38,15 +38,16 @@ En resumen, cualquier humano o programa informático debe poder accesar, entende
 
 ### Principios
 
-1. Los datos deben ser consumibles tanto para el humano como para un programa computacional. Se propone que el API entregue los datos en [JSON](http://es.wikipedia.org/wiki/Json) o en [XML](http://es.wikipedia.org/wiki/Xml).
+1. Erradicar formatos cerrados. Los datos deben ser consumibles tanto para el humano como para un programa computacional. El API entregará los datos en [JSON](http://es.wikipedia.org/wiki/Json) o en [XML](http://es.wikipedia.org/wiki/Xml).
 2. Arquitectura simple basada en [REST](http://es.wikipedia.org/wiki/REST).
-3. Facilitará el consumo de datos filtrado bajo los siguientes rubros:  
+3. Facilitará la consulta de datos bajo los siguientes rubros:  
   3.1 Categorías, ej. educación, salud, gasto público  
   3.2 Datasets/temáticas/contextos, ej. bullying, licitaciones de software  
   3.3 Zona geográfica, ej. Baja California  
   3.4 Fechas, ej. 2009 - 2011  
 4. Los datos deben tener referencia, i.e. autor, organización a cargo.  
-5. Los datos deben estar ligados a una zona geográfica y al tiempo.  
+5. Los datos deben estar ligados a una zona geográfica y al tiempo. 
+6. Los campos deben tener una descripción, p.ej. en el data set ["Financiamiento a la actividad forestal por programa 2011"](http://thedatahub.org/es/dataset/ccmss/resource/d009e5c6-20aa-4320-8bef-40b624dc66f1), el campo o columna "solicitante" llevaría una descripción más específica similar a "Nombre del apoderado legal del subsidio entregado".
 
 ### Contextos, datasets, temática
 
@@ -57,7 +58,6 @@ En resumen, cualquier humano o programa informático debe poder accesar, entende
 { datasets: ["licitaciones", "compras-de-software", "pronabes"] }
 
 ```
-
 ### Datos en tiempo y espacio
 
 Dataset de bullying filtrado al DF
@@ -65,12 +65,46 @@ Dataset de bullying filtrado al DF
 ```
 ➜  ~  curl http://opendata.mx/api/educacion/bullying?w=-99.364067&s=19.048220&e=-98.940193&n=19.591579
 ```
-
 Presupuesto para compra de software desde 2009
 
 ```
 ➜  ~  curl http://opendata.mx/api/presupuesto/compras-de-software?since=2009
 ```
+[Financiamiento a bosques en 2011](http://thedatahub.org/es/dataset/ccmss/resource/d009e5c6-20aa-4320-8bef-40b624dc66f1)
+
+```
+➜  ~  curl http://opendata.mx/api/presupuesto/financiamiento-a-bosques?year=2011
+```
+```json
+{
+    "results": [
+        {
+            "Estado": "Chiapas",
+            "Solicitante": "Emilio Jiménez Pérez",
+            "Monto": 2450,
+            "Municipio": "San Fernando",
+            "Superficie": 2,
+            "Programa": "Restauración y conservación del Río Grijalva"
+        },
+        {
+            "Estado": "Chiapas",
+            "Solicitante": "Esteban Vázquez Sánchez",
+            "Monto": 1080,
+            "Municipio": "San Fernando",
+            "Superficie": 1,
+            "Programa": "Restauración y conservación del Río Grijalva"
+        }
+    ]
+}
+```
+
+## Futuros escenarios
+
+* Un ecosistema de desarrollo alrededor del API
+* Productos más robustos y más completos
+* Repositorio histórico de datos
+* Minería de datos
+* Referencias cruzadas entre datasets
 
 ## Referencias
 
