@@ -1,13 +1,13 @@
-Especificación de una API para OpenDataMX
+Especificación de una [API] para OpenDataMX
 ===========
 
-Draft de la primera especificación de una API para el [OpenDataMX](http://opendata.mx/)
+Draft de la primera especificación de una API para el [OpenDataMX]
 
 ## Razón
 
 ### Introducción
 
-[OpenDataMX](http://opendata.mx/) es un hackatón enfocado en desarrollar tecnología para promover la transparencia del Gobierno de México.
+[OpenDataMX] es un hackatón enfocado en desarrollar tecnología para promover la transparencia del Gobierno de México.
 
 Para el evento se publican _datasets_ en el repo de [Github](https://github.com/opendatamx) o en la [página oficial del evento](http://opendata.mx/datasets), y varios equipos destinan 36 horas del fin de semana para concretar un producto de la depuración, procesamiento, y visualización de los datos.
 
@@ -32,9 +32,9 @@ Ejemplos:
 4. Permitir la generación de consultas
 5. Agilizar y humanizar la importación de datos
 
-En resumen, cualquier humano o programa informático debe poder accesar, entender, y procesar los datos del OpenDataMX desde cualquier parte de la red.
+En resumen, cualquier humano o programa informático debe poder accesar, entender, y procesar los datos del [OpenDataMX] desde cualquier parte de la red.
 
-## Descripción de la [API](http://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones)
+## Descripción de la [API]
 
 ### Principios
 
@@ -74,7 +74,11 @@ Presupuesto para compra de software desde 2009
 
 ## Referencias
 
-* OpenDataMX http://opendata.mx
+* [OpenDataMX]  
+* The Data Hub http://thedatahub.org
+
+[OpenDataMX]: http://opendata.mx  "OpenDataMX"
+[API]: http://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones "API"
 
 ## Licencia
 
