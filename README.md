@@ -24,6 +24,16 @@ Ejemplos:
 2 Estos datasets de educación indígena en DataHub están comprimidos en formato .zip
 ![DataHub: Educación Indígena (formato .zip)](http://f.cl.ly/items/3l32322v0w3i0o1p303L/DataHub.png)
 
+## Propuesta
+
+1. Estandarizar el formato de datos
+2. Centralizar la información
+3. Facilitar el acceso de los datos a las masas
+4. Permitir la generación de consultas
+5. Agilizar y humanizar la importación de datos
+
+En resumen, cualquier humano o programa informático debe poder accesar, entender, y procesar los datos del OpenDataMX desde cualquier parte de la red.
+
 ## Referencias
 
 * OpenDataMX http://opendata.mx
