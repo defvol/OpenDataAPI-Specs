@@ -101,6 +101,9 @@ Presupuesto para compra de software desde 2009
 ## Futuros escenarios
 
 * Un ecosistema de desarrollo alrededor del API
+  * [SDKs](http://es.wikipedia.org/wiki/SDK) para diferentes lenguajes de programación
+  * Aplicación Web para la fácil incorporación de nuevos datasets
+  * Cuentas validadas para organizaciones que mantendrán sanos los datos
 * Productos más robustos y más completos
 * Repositorio histórico de datos
 * Minería de datos
@@ -109,7 +112,7 @@ Presupuesto para compra de software desde 2009
 ## Referencias
 
 * [OpenDataMX]  
-* The Data Hub http://thedatahub.org
+* [The Data Hub](http://thedatahub.org)
 
 [OpenDataMX]: http://opendata.mx  "OpenDataMX"
 [API]: http://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones "API"
