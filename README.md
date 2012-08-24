@@ -49,6 +49,10 @@ En resumen, cualquier humano o programa informático debe poder accesar, entende
 5. Los datos deben estar ligados a una zona geográfica y al tiempo. 
 6. Los campos deben tener una descripción, p.ej. en el data set ["Financiamiento a la actividad forestal por programa 2011"](http://thedatahub.org/es/dataset/ccmss/resource/d009e5c6-20aa-4320-8bef-40b624dc66f1), el campo o columna "solicitante" llevaría una descripción más específica similar a "Nombre del apoderado legal del subsidio entregado".
 
+Ejemplo de descripción de servicios de API en [Open311]
+
+![Ejemplo de descripción del servicio del API en Open311](http://f.cl.ly/items/1X2U030r0N0m2j3q2C1D/311Spec.png)
+
 ### Contextos, datasets, temática
 
 ```
@@ -113,9 +117,11 @@ Presupuesto para compra de software desde 2009
 
 * [OpenDataMX]  
 * [The Data Hub](http://thedatahub.org)
+* [Open311]
 
 [OpenDataMX]: http://opendata.mx  "OpenDataMX"
 [API]: http://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones "API"
+[Open311]: http://open311.org/ "Open311"
 
 ## Licencia
 
