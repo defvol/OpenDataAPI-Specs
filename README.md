@@ -24,18 +24,6 @@ Ejemplos:
 2 Estos datasets de educación indígena en DataHub están comprimidos en formato .zip
 ![DataHub: Educación Indígena (formato .zip)](http://f.cl.ly/items/3l32322v0w3i0o1p303L/DataHub.png)
 
-## Propuesta
-
-1. Estandarizar el formato de datos
-2. Centralizar la información
-3. Facilitar el acceso de los datos a las masas
-4. Permitir la generación de consultas
-5. Agilizar y humanizar la importación de datos
-
-En resumen, cualquier humano o programa informático debe poder accesar, entender, y procesar los datos del [OpenDataMX] desde cualquier parte de la red.
-
-## Descripción de la [API]
-
 ### Retomando algunos de los principios del [Open Government Working Group]
 
 Los datos de gobierno:
@@ -46,7 +34,19 @@ Los datos de gobierno:
 5. Deben estar disponibles sin discriminación para el mayor número de usuarios y propósitos. 
 6. Deben almacenarse en formatos no propietarios.  
 
-Es así que definimos que la tecnología detrás del API debería cumplir con los siguientes puntos:
+## Propuesta
+
+1. Estandarizar el formato de datos
+2. Centralizar la información
+3. Facilitar el acceso de los datos a las masas
+4. Permitir la generación de consultas
+5. Agilizar y humanizar la importación de datos
+
+En resumen, cualquier humano o programa informático debe poder accesar, entender, y procesar los datos del [OpenDataMX] desde cualquier parte de la red.
+
+Proponemos un [API] público que permita centralizar el procesamiento, distribución y consulta de estos datos.
+
+## Descripción de la [API]
 
 1. El API facilitará el consumo de datos entregándolos en [JSON](http://es.wikipedia.org/wiki/Json) o en [XML](http://es.wikipedia.org/wiki/Xml).
 2. Arquitectura simple basada en [REST](http://es.wikipedia.org/wiki/REST) sin autenticación.
