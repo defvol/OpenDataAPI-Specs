@@ -36,10 +36,20 @@ En resumen, cualquier humano o programa informático debe poder accesar, entende
 
 ## Descripción de la [API]
 
-### Principios
+### Retomando algunos de los principios del [Open Government Working Group]
 
-1. Erradicar formatos cerrados. Los datos deben ser consumibles tanto para el humano como para un programa computacional. El API entregará los datos en [JSON](http://es.wikipedia.org/wiki/Json) o en [XML](http://es.wikipedia.org/wiki/Xml).
-2. Arquitectura simple basada en [REST](http://es.wikipedia.org/wiki/REST).
+Los datos de gobierno:
+
+1. Deben ser completos: datos públicos significa que no están sujetos a confidencialidad, privacidad o algún otro status restrictivo.
+2. Deben ser primarios, i.e. con el mayor grado de granularidad posible.
+4. Deben ser legibles tanto para humanos como para un programa computacional.
+5. Deben estar disponibles sin discriminación para el mayor número de usuarios y propósitos. 
+6. Deben almacenarse en formatos no propietarios.  
+
+Es así que definimos que la tecnología detrás del API debería cumplir con los siguientes puntos:
+
+1. El API facilitará el consumo de datos entregándolos en [JSON](http://es.wikipedia.org/wiki/Json) o en [XML](http://es.wikipedia.org/wiki/Xml).
+2. Arquitectura simple basada en [REST](http://es.wikipedia.org/wiki/REST) sin autenticación.
 3. Facilitará la consulta de datos bajo los siguientes rubros:  
   3.1 Categorías, ej. educación, salud, gasto público  
   3.2 Datasets/temáticas/contextos, ej. bullying, licitaciones de software  
@@ -118,10 +128,12 @@ Presupuesto para compra de software desde 2009
 * [OpenDataMX]  
 * [The Data Hub](http://thedatahub.org)
 * [Open311]
+* [Open Government Working Group]
 
 [OpenDataMX]: http://opendata.mx  "OpenDataMX"
 [API]: http://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones "API"
 [Open311]: http://open311.org/ "Open311"
+[Open Government Working Group]: http://www.opengovdata.org/home/8principles "Open Government Working Group"
 
 ## Licencia
 
