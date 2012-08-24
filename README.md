@@ -1,7 +1,7 @@
-Especificación de un API para OpenDataMX
+Especificación de una API para OpenDataMX
 ===========
 
-Draft de la primera especificación de un API para el [OpenDataMX](http://opendata.mx/)
+Draft de la primera especificación de una API para el [OpenDataMX](http://opendata.mx/)
 
 ## Razón
 
@@ -33,6 +33,20 @@ Ejemplos:
 5. Agilizar y humanizar la importación de datos
 
 En resumen, cualquier humano o programa informático debe poder accesar, entender, y procesar los datos del OpenDataMX desde cualquier parte de la red.
+
+## Descripción de la [API](http://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones)
+
+### Principios
+
+1. Los datos deben ser consumibles tanto para el humano como para un programa computacional. Se propone que el API entregue los datos en [JSON](http://es.wikipedia.org/wiki/Json) o en [XML](http://es.wikipedia.org/wiki/Xml).
+2. Arquitectura simple basada en [REST](http://es.wikipedia.org/wiki/REST).
+3. Facilitará el consumo de datos filtrado bajo los siguientes rubros:  
+  3.1 Categorías, ej. educación, salud, gasto público  
+  3.2 Datasets/temáticas/contextos, ej. bullying, licitaciones de software  
+  3.3 Zona geográfica, ej. Baja California  
+  3.4 Fechas, ej. 2009 - 2011  
+4. Los datos deben tener referencia, i.e. autor, organización a cargo.  
+5. Los datos deben estar ligados a una zona geográfica y al tiempo.  
 
 ## Referencias
 
